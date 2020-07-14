@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quize</title>
+  
+  <!-- HTML -->
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./STYLES/style.css">
+</head>
+
+<body dir="rtl">
+  
+  <!-- The Game -->
+  <div id="start">
+    <span onclick="start()">
+      بدأ اللعبة
+    </span>
+  </div>
+  
+  <div id="game">
+    
+    <div id="score">
+      <div id="correct-answer"></div>
+      <div id="wrong-answer"></div>
+    </div>
+    
+    <div id="quise-wrapper">
+    </div>
+    
+    <div id="choices">
+      
+      <div id="A" onclick="choice('A')">
+      </div>
+      <div id="B" onclick="choice('B')">
+      </div>
+      <div id="C" onclick="choice('C')">
+      </div>
+      <div id="D" onclick="choice('D')">
+      </div>
+      
+    </div>
+    
+  </div>
+  
+
+  <div id="result_wrapper" onclick="resultF()">
+    <div id="result" onclick="resultF()">
+    </div>
+  </div>
+  
+  
+  
+  <div id="end_wrapper">
+    <div id="end">
+      انتهت اللعبة
+    </div>
+  </div>
+  
+  
+  <!-- Project -->
+  <script src="./JS/01_Al_Fatiha.js"></script>
+  <script src="./JS/main.js"></script>
+  <script src="0try.js"></script>
+</body>
+</html>
